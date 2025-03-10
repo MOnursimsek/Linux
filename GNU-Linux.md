@@ -173,9 +173,10 @@ Root olan dizin / ile ifade edilir. Örn /tmp/oku.txt = “Root dizini altındak
 
 Terminal olmadan shelli kullanabilmel için konsolu kullanırız konsola geçiş yapmak için CTRL+ALT+F1-F4 bu dört tuş kombinasyonuyla konsola giriş yaparsını bu kombinasyonların ikisinde masaüztü ortamınız ve giriş sayfası bulunabilir. 
 
-**Terminal** 
-![alt text](resimler/image.png)
 
+**Terminal** 
+
+![alt text](resimler/image.png)
 
 **Konsol**
 ![alt text](resimler/image2.png)
