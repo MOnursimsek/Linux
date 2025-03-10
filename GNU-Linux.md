@@ -182,6 +182,8 @@ Terminal olmadan shelli kullanabilmel için konsolu kullanırız konsola geçiş
 ![alt text](resimler/image2.png)
 
 
+
+### **Terminal ve Konsolda Kullanabileceğiniz Kısa Yollar**
 | **Kısayol**       | **Açıklama**                                                   |
 |-------------------|---------------------------------------------------------------|
 | `Ctrl + A`        | İmleci satır başına götürür.                                   |
