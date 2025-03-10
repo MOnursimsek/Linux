@@ -1,4 +1,4 @@
-# **GNU Linux **
+# **GNU Linux**
 
 ## Kavramlar
 
@@ -61,8 +61,9 @@ uygulamalar, belgeler vs gibi. Ücretli ve ücretsiz de olabilirler.
 
 
 ## **Linux dağıtımlarının kronolojisi**
+Aşağıdan Linux dağıtımlarını , kronolojik olarak oluşturulma sıralarını ve eğer baçka bir dağıtımdan esinlenilerek oluşturulduysa hangi dağıtımı temel alarak oluşturulduklarını inceleyebilirsiniz.
 
-![alt text](resimler\Linux_Distribution_Timeline.svg)
+![alt text](resimler/Linux_Distribution_Timeline.svg)
 [[3](https://tr.wikipedia.org/wiki/Linux_da%C4%9F%C4%B1t%C4%B1m%C4%B1)]
 
 
@@ -83,12 +84,15 @@ uygulamalar, belgeler vs gibi. Ücretli ve ücretsiz de olabilirler.
 
 **KDA plasma**
 
-![alt text](resimler\fullscreen_with_apps.png)
+![alt text](resimler/fullscreen_with_apps.png)
+[[4](https://kde.org/tr/announcements/plasma/5/5.27.0/)]
 
 **Gnome**
 
-![alt text](resimler\GNOME-44-Desktop.webp)
+![alt text](resimler/GNOME-44-Desktop.webp)
+[[5](https://www.debugpoint.com/gnome-44/)]
 
 **Mate**
 
-![alt text](resimler\mate-2.png)
+![alt text](resimler/mate-2.png)
+[[6](https://mateslackbuilds.github.io/)]
