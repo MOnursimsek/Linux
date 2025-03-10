@@ -125,7 +125,9 @@ Hiyerarşik yapı sayesinde dosya sistemine erişim daha sistematik hale gelir.
 | `/usr` | Kullanıcı yazılımları (`/usr/bin`, `/usr/lib`, `/usr/share` vb.). |
 | `/var` | Loglar, cache, e-posta gibi değişken veriler (`/var/log`, `/var/cache`). |
 
-### **Linux'ta dosya ve dizinler arasında dolaşmak için kullanılan temel komutlar**
+### **Linux'ta dizinler arasında dolaşmak için kullanılan temel komutlar**
+Bu komutaları terminal veya shell ile kullanarak dizinler arasında dolaşabilirsiniz.
+
 | **Komut**  | **Açıklama** |
 |------------|-------------|
 | `pwd` | Bulunduğun dizinin yolunu gösterir. |
@@ -160,12 +162,23 @@ Root olan dizin / ile ifade edilir. Örn /tmp/oku.txt = “Root dizini altındak
 - . (nokta) işareti, path’lerde “bulunulan mevcut konumu” ifade eder. Dosya ve dizin isimlerinde ise; gizliliği...
 
 
+## **Linux Terminal Kavramı**
+
+- Terminal, komut ekranına sahip bir Shell (Kabuk) programıdır. Terminal, bir Shell değildir.
+- Kullanıcı ile Kernel (Çekirdek) arasındaki yorumlayıcı olan Shell’i kullanmamızı sağlar.
+- Grafik arayüzden verilen komutların ve alınan çıktıların metinsel ortamıdır. Grafik arayüzden daha fazla komuta, işleme sahiptir.
+- Terminaller birden fazladır ve tercihe bağlı olarak kullanılabilirler. Konsole, Gnome Terminal, Terminator, Xfce Terminal, Tilix popüler terminallerarasındadır.
+- Terminaller kişisel tercihlere göre özelleştirilebilir.
+- Terminaller olmadan da Shell kullanılabilir.
+
+Terminal olmadan shelli kullanabilmel için konsolu kullanırız konsola geçiş yapmak için CTRL+ALT+F1-F4 bu dört tuş kombinasyonuyla konsola giriş yaparsını bu kombinasyonların ikisinde masaüztü ortamınız ve giriş sayfası bulunabilir. 
+
+**Terminal** 
+![alt text](resimler/image.png)
 
 
-
-
-
-
+**Konsol**
+![alt text](resimler/image2.png)
 
 
 
