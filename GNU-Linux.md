@@ -100,6 +100,8 @@ Aşağıdan Linux dağıtımlarını , kronolojik olarak oluşturulma sıraları
 
 ## **Linux Dizin Yapısı (Linux Directory Structure)**
 
+Linux’ta dizin yapısı, hiyerarşik bir ağaç yapısı şeklinde düzenlenmiştir. Kök dizin (/) en üstte yer alır ve tüm dosyalar bu yapının altında bulunur. Linux'ta her şey bir dosyadır. Dizinler, aygıtlar, süreçler hatta bellek bile dosya olarak temsil edilir.
+Hiyerarşik yapı sayesinde dosya sistemine erişim daha sistematik hale gelir.
 
 | **Dizin**   | **Açıklama**  |
 |------------|-------------|
@@ -122,6 +124,24 @@ Aşağıdan Linux dağıtımlarını , kronolojik olarak oluşturulma sıraları
 | `/tmp` | Geçici dosyalar için kullanılan dizin (yeniden başlatıldığında silinir). |
 | `/usr` | Kullanıcı yazılımları (`/usr/bin`, `/usr/lib`, `/usr/share` vb.). |
 | `/var` | Loglar, cache, e-posta gibi değişken veriler (`/var/log`, `/var/cache`). |
+
+### **Linux'ta dosya ve dizinler arasında dolaşmak için kullanılan temel komutlar**
+| **Komut**  | **Açıklama** |
+|------------|-------------|
+| `pwd` | Bulunduğun dizinin yolunu gösterir. |
+| `ls` | Mevcut dizindeki dosya ve dizinleri listeler. |
+| `ls -a` | Gizli dosyalar da dahil olmak üzere tüm dosyaları listeler. |
+| `ls -l` | Dosya ve dizinleri detaylı liste formatında gösterir. |
+| `cd dizin_adı` | Belirtilen dizine geçiş yapar. |
+| `cd ..` | Bir üst dizine çıkar. |
+| `cd /` | Kök (root) dizinine gider. |
+| `cd ~` | Kullanıcının ev dizinine gider. |
+| `cd -` | Önceki dizine geri döner. |
+| `mkdir yeni_dizin` | Yeni bir dizin oluşturur. |
+| `rmdir boş_dizin` | Boş bir dizini siler. |
+| `rm -r dizin_adı` | Dizin ve içeriğini siler. |
+| `find /başlangıç_dizini -name "dosya_adı"` | Belirtilen dosyayı dizinler içinde arar. |
+
 
 
 ### **Dizin Yapısı ve Dosya Sistemi Hakkında Unutulmaması Gerekenler**
