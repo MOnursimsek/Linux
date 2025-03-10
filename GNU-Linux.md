@@ -182,6 +182,34 @@ Terminal olmadan shelli kullanabilmel için konsolu kullanırız konsola geçiş
 ![alt text](resimler/image2.png)
 
 
+| **Kısayol**       | **Açıklama**                                                   |
+|-------------------|---------------------------------------------------------------|
+| `Ctrl + A`        | İmleci satır başına götürür.                                   |
+| `Ctrl + E`        | İmleci satır sonuna götürür.                                   |
+| `Ctrl + B`        | İmleci bir karakter geri götürür.                              |
+| `Ctrl + F`        | İmleci bir karakter ileri götürür.                             |
+| `Alt + B`         | İmleci bir kelime geri götürür.                                |
+| `Alt + F`         | İmleci bir kelime ileri götürür.                               |
+| `Ctrl + XX`       | İmleci satır başı ile bulunduğu yer arasında gezdirir.         |
+| `Alt + T`         | İfadeyi öncekiyle yer değiştirir.                              |
+| `Ctrl + T`        | Karakteri öncekiyle yer değiştirir.                            |
+| `Alt + U`         | İmleçten sonraki ifadeyi büyük harfe dönüştürür.               |
+| `Alt + L`         | İmleçten sonraki ifadeyi küçük harfe dönüştürür.               |
+| `Ctrl + U`        | İmlecin arkasındaki her şeyi keser.                            |
+| `Ctrl + K`        | İmlecin önündeki her şeyi keser.                               |
+| `Ctrl + Y`        | Kesilen ifadeyi yapıştırır.                                    |
+| `Ctrl + S`        | Komutun çıktı akışını duraklatır.                              |
+| `Ctrl + Q`        | Komutun çıktı akışını sürdürür.                                |
+| `Ctrl + C`        | Çalışan komutu durdurur.                                       |
+| `Ctrl + Z`        | Çalışan komutu arka planda askıya alır (suspend eder).         |
+| `fg` + Enter      | Arka planda askıya alınan komutu ön plana alır.                |
+| `Ctrl + L`        | Ekranı temizler (Terminalde yukarıya atar).                    |
+| `Ctrl + P`        | Geçmişteki komutları geriye doğru çağırır.                     |
+| `Ctrl + N`        | Geçmişteki komutları ileriye doğru çağırır.                    |
+| `Ctrl + R`        | Komut geçmişinde arama yapmayı başlatır.                       |
+| `Ctrl + G`        | Komut geçmişinde aramayı sonlandırır.                          |
+| `Tab`             | Komutları otomatik tamamlar. İki kez basıldığında olası komutları listeler. |
+| `Ctrl + D`        | Oturumu kapatır (`exit` komutu ile eşdeğer).                   |
 
 
 
