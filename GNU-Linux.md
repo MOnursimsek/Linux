@@ -100,15 +100,6 @@ Aşağıdan Linux dağıtımlarını , kronolojik olarak oluşturulma sıraları
 
 ## **Linux Dizin Yapısı (Linux Directory Structure)**
 
-<style>
-  table {
-    width: 100%;
-  }
-  th, td {
-    text-align: left;
-    padding: 8px;
-  }
-</style>
 
 | **Dizin**   | **Açıklama**  |
 |------------|-------------|
