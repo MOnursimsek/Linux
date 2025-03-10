@@ -96,3 +96,86 @@ Aşağıdan Linux dağıtımlarını , kronolojik olarak oluşturulma sıraları
 
 ![alt text](resimler/mate-2.png)
 [[6](https://mateslackbuilds.github.io/)]
+
+
+## **Linux Dizin Yapısı (Linux Directory Structure)**
+
+<style>
+  table {
+    width: 100%;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+</style>
+
+| **Dizin**   | **Açıklama**  |
+|------------|-------------|
+| `/` (Root) | En üst düzey dizin, tüm dosya sisteminin köküdür. |
+| `/bin` | Temel sistem komutları ve çalıştırılabilir dosyalar (`ls`, `cp`, `mv` vb.). |
+| `/sbin` | Sistem yöneticisi komutları (`shutdown`, `fdisk`, `ifconfig` vb.). |
+| `/boot` | Önyükleme dosyaları (Linux çekirdeği ve GRUB burada bulunur). |
+| `/dev` | Aygıt dosyaları (HDD, USB, CD-ROM vb. `/dev/sda`, `/dev/tty1` vb.). |
+| `/etc` | Konfigürasyon dosyaları (`/etc/passwd`, `/etc/hostname`, `/etc/fstab` vb.). |
+| `/home` | Kullanıcıların kişisel dizinleri (`/home/kullanıcı_adı/`). |
+| `/lib`, `/lib64` | Çekirdek modülleri ve sistem kütüphaneleri (`.so` dosyaları). |
+| `/media` | USB, CD/DVD gibi harici aygıtların bağlandığı yer. |
+| `/mnt` | Geçici olarak bağlanan dosya sistemleri için kullanılan dizin. |
+| `/opt` | Üçüncü taraf yazılımlar ve uygulamalar burada bulunur. |
+| `/proc` | Çalışan sistem süreçleri hakkında bilgiler (`/proc/cpuinfo`, `/proc/meminfo`). |
+| `/root` | Root kullanıcısının ev dizini. (`/home/root` yerine `/root` kullanılır). |
+| `/run` | Geçici sistem bilgileri, sistem açıldığında oluşturulur ve kapanınca silinir. |
+| `/srv` | Sunucu verileri için kullanılır (`/srv/www`, `/srv/ftp` vb.). |
+| `/sys` | Sistem donanımı ve çekirdek bilgileri (`/sys/class`, `/sys/devices` vb.). |
+| `/tmp` | Geçici dosyalar için kullanılan dizin (yeniden başlatıldığında silinir). |
+| `/usr` | Kullanıcı yazılımları (`/usr/bin`, `/usr/lib`, `/usr/share` vb.). |
+| `/var` | Loglar, cache, e-posta gibi değişken veriler (`/var/log`, `/var/cache`). |
+
+
+### **Dizin Yapısı ve Dosya Sistemi Hakkında Unutulmaması Gerekenler**
+
+- Linux’ta, donanımlar dahil her şeyin dosyalar halinde olduğunu unutmayın.
+- Path’ler Windows’ta \ (ters slash) ile gösterilirken; Linux’ta ise / (düz slash) ile gösterilir ve kullanılır.
+- Windows’takinin aksine, dosya isimlerinde küçük-büyük harf duyarlılığı (case sensitive) vardır.
+- Kullanıcı olan root ile dizin olan root’u karıştırmayın; biri kullanıcı, diğeri dizindir.
+Root olan dizin / ile ifade edilir. Örn /tmp/oku.txt = “Root dizini altındaki tmp dizininde bulunan oku.txt dosyası.”
+- Program dosyaları Windows’taki gibi tek bir dizin (Program Files) altında toplanmaz.
+Örn; dil dosyaları /usr/share/locale altında; doküman dosyaları /usr/share/doc altında toplanabilir.
+- .so dosyaları, Windows’taki .dll’ler gibi kütüphane dosyalarıdır. /lib ve /usr/lib dizininde toplanırlar.
+- Home dizini, Windows’taki Users dizini işlevindedir. (Fakat Root kullanıcısının kendine ait home dizini vardır. /root/ )
+- /tmp veya /var/tmp dizinleri Windows’taki Temp işlevindedir.
+- Home dizini için shell’de ~ işareti kullanılır. Bu dizindeki dosyalara ~/Desktop/dosya.txt şeklindeki gibi erişilebilir.
+- . (nokta) işareti, path’lerde “bulunulan mevcut konumu” ifade eder. Dosya ve dizin isimlerinde ise; gizliliği...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
