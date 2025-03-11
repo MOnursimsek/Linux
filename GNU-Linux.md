@@ -139,10 +139,6 @@ Bu komutaları terminal veya shell ile kullanarak dizinler arasında dolaşabili
 | `cd /` | Kök (root) dizinine gider. |
 | `cd ~` | Kullanıcının ev dizinine gider. |
 | `cd -` | Önceki dizine geri döner. |
-| `mkdir yeni_dizin` | Yeni bir dizin oluşturur. |
-| `rmdir boş_dizin` | Boş bir dizini siler. |
-| `rm -r dizin_adı` | Dizin ve içeriğini siler. |
-| `find /başlangıç_dizini -name "dosya_adı"` | Belirtilen dosyayı dizinler içinde arar. |
 
 
 
