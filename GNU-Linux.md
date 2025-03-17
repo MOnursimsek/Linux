@@ -35,12 +35,12 @@ Uygulama yazılımları, kullanıcıların belirli görevleri gerçekleştirmesi
 ## **GNU**
 GNU; çekirdeği, sistem araçlarını, açıcılarını, kütüphanelerini ve son kullanıcı yazılımlarını içeren, GNU Tasarısı kapsamında geliştirilen bir işletim sistemidir. İsminin açılımı "GNU's Not Unix" (GNU Unix değildir) dir. Bu ismi almasındaki sebep de tasarımının Unix'e benzerken kendisinin özgür yazılım olması ve herhangi bir UNIX kodunu içermemesidir.
 
-GNU işletim sistemi planı 1983 Eylül'ünde Richard Stallman tarafından duyurulmuş, 1984 Ocak ayında işleyişe başlamıştır. 2025 itibarıyla GNU hâlâ etkin olarak gelişmektedir.[[1](https://tr.wikipedia.org/wiki/GNU)]
+GNU işletim sistemi planı 1983 Eylül'ünde Richard Stallman tarafından duyurulmuş, 1984 Ocak ayında işleyişe başlamıştır. 2025 itibarıyla GNU hâlâ etkin olarak gelişmektedir.[[1](#kaynakça)]
 
 ## **Linux** 
 
 Linux, 1991 yılında Linus Torvalds adlı bir Fin üniversite öğrencisi tarafından, daha eski işletim sistemlerinden birisi olan UNIX'in mimarisine ve POSIX standartlarına uygun şekilde sıfırdan yazılmaya başlanmıştır. Geliştirilmesinde Unix mimarisinden esinlenilmiş olmakla birlikte Linux içinde Unix'ten alınmış herhangi bir kod bulunmamaktadır. Geliştirilen bu yazılım, kullanıcı araçları olmayan sadece bir çekirdek yazılımıdır. 
-[[2](https://tr.wikipedia.org/wiki/Linux)]
+[[2](#kaynakça)]
 
 
 ## **GNU-Linux**
@@ -51,7 +51,7 @@ vardı. Richard Stallman’ın işletim sistemi olan GNU ve Linus Torvalds’ın
 Linux dağıtımı Linux çekirdeği, GNU araçları ve bir masaüstü ortamının bir araya gelmesiyle, bu birlikteliği sürdürülebilir şekilde yönetecek bir yapılandırma araçları seti, yazılım güncelleme araçları vb. ile oluşturularak tam teşekküllü bir işletim sistemi haline gelen uygulamalar bütününü ifade eder.
 Dağıtım kavramı, özgür yazılım felsefesinin çok alternatifli dünyasının bir sonucu olarak ortaya çıkmış, Linux'a özgü bir terimdir. 
 
-Yaygınlıkları ve GNU/Linux dünyasına katkılarıyla öne çıkan bazı dağıtımlar vardır: Debian, Ubuntu, Red Hat, Fedora, Linux Mint, openSUSE ve Arch Linux bunlardan birkaçıdır.[[3](https://tr.wikipedia.org/wiki/Linux_da%C4%9F%C4%B1t%C4%B1m%C4%B1)]
+Yaygınlıkları ve GNU/Linux dünyasına katkılarıyla öne çıkan bazı dağıtımlar vardır: Debian, Ubuntu, Red Hat, Fedora, Linux Mint, openSUSE ve Arch Linux bunlardan birkaçıdır.[[3](#kaynakça)]
 
 Dağıtımlar, hedeflenen kullanım amacına göre ufak farklılıklar
 gösterirler. Dosya-dizin yapıları, yükleme paketleri,
@@ -64,7 +64,7 @@ uygulamalar, belgeler vs gibi. Ücretli ve ücretsiz de olabilirler.
 Aşağıdan Linux dağıtımlarını , kronolojik olarak oluşturulma sıralarını ve eğer baçka bir dağıtımdan esinlenilerek oluşturulduysa hangi dağıtımı temel alarak oluşturulduklarını inceleyebilirsiniz.
 
 ![alt text](resimler/Linux_Distribution_Timeline.svg)
-[[3](https://tr.wikipedia.org/wiki/Linux_da%C4%9F%C4%B1t%C4%B1m%C4%B1)]
+[[3](#kaynakça)]
 
 
 ## **Masaüstü Ortamları (Desktop Environments)**
@@ -85,17 +85,17 @@ Aşağıdan Linux dağıtımlarını , kronolojik olarak oluşturulma sıraları
 **KDA plasma**
 
 ![alt text](resimler/fullscreen_with_apps.png)
-[[4](https://kde.org/tr/announcements/plasma/5/5.27.0/)]
+[[4](#kaynakça)]
 
 **Gnome**
 
 ![alt text](resimler/GNOME-44-Desktop.webp)
-[[5](https://www.debugpoint.com/gnome-44/)]
+[[5](#kaynakça)]
 
 **Mate**
 
 ![alt text](resimler/mate-2.png)
-[[6](https://mateslackbuilds.github.io/)]
+[[6](#kaynakça)]
 
 
 ## **Linux Dizin Yapısı (Linux Directory Structure)**
@@ -215,18 +215,19 @@ Terminal olmadan shelli kullanabilmel için konsolu kullanırız konsola geçiş
 
 
 
+## **KAYNAKÇA**
 
+[**1. GNU - Wikipedia**](https://tr.wikipedia.org/wiki/GNU)
 
+[**2. Linux - Wikipedia**](https://tr.wikipedia.org/wiki/Linux)
 
+[**3. Linux Dağıtımı - Wikipedia**](https://tr.wikipedia.org/wiki/Linux_da%C4%9F%C4%B1t%C4%B1m%C4%B1)
 
+[**4. KDE Plasma 5.27.0 Duyurusu**](https://kde.org/tr/announcements/plasma/5/5.27.0/)
 
+[**5. GNOME 44 - DebugPoint**](https://www.debugpoint.com/gnome-44/)
 
-
-
-
-
-
-
+[**6. MATE SlackBuilds**](https://mateslackbuilds.github.io/)
 
 
 
