@@ -125,22 +125,6 @@ Hiyerarşik yapı sayesinde dosya sistemine erişim daha sistematik hale gelir.
 | `/usr` | Kullanıcı yazılımları (`/usr/bin`, `/usr/lib`, `/usr/share` vb.). |
 | `/var` | Loglar, cache, e-posta gibi değişken veriler (`/var/log`, `/var/cache`). |
 
-### **Linux'ta dizinler arasında dolaşmak için kullanılan temel komutlar**
-Bu komutaları terminal veya shell ile kullanarak dizinler arasında dolaşabilirsiniz.
-
-| **Komut**  | **Açıklama** |
-|------------|-------------|
-| `pwd` | Bulunduğun dizinin yolunu gösterir. |
-| `ls` | Mevcut dizindeki dosya ve dizinleri listeler. |
-| `ls -a` | Gizli dosyalar da dahil olmak üzere tüm dosyaları listeler. |
-| `ls -l` | Dosya ve dizinleri detaylı liste formatında gösterir. |
-| `cd dizin_adı` | Belirtilen dizine geçiş yapar. |
-| `cd ..` | Bir üst dizine çıkar. |
-| `cd /` | Kök (root) dizinine gider. |
-| `cd ~` | Kullanıcının ev dizinine gider. |
-| `cd -` | Önceki dizine geri döner. |
-
-
 
 ### **Dizin Yapısı ve Dosya Sistemi Hakkında Unutulmaması Gerekenler**
 
@@ -176,38 +160,6 @@ Terminal olmadan shelli kullanabilmel için konsolu kullanırız konsola geçiş
 
 **Konsol**
 ![alt text](resimler/image2.png)
-
-
-
-### **Terminal ve Konsolda Kullanabileceğiniz Kısa Yollar**
-| **Kısayol**       | **Açıklama**                                                   |
-|-------------------|---------------------------------------------------------------|
-| `Ctrl + A`        | İmleci satır başına götürür.                                   |
-| `Ctrl + E`        | İmleci satır sonuna götürür.                                   |
-| `Ctrl + B`        | İmleci bir karakter geri götürür.                              |
-| `Ctrl + F`        | İmleci bir karakter ileri götürür.                             |
-| `Alt + B`         | İmleci bir kelime geri götürür.                                |
-| `Alt + F`         | İmleci bir kelime ileri götürür.                               |
-| `Ctrl + XX`       | İmleci satır başı ile bulunduğu yer arasında gezdirir.         |
-| `Alt + T`         | İfadeyi öncekiyle yer değiştirir.                              |
-| `Ctrl + T`        | Karakteri öncekiyle yer değiştirir.                            |
-| `Alt + U`         | İmleçten sonraki ifadeyi büyük harfe dönüştürür.               |
-| `Alt + L`         | İmleçten sonraki ifadeyi küçük harfe dönüştürür.               |
-| `Ctrl + U`        | İmlecin arkasındaki her şeyi keser.                            |
-| `Ctrl + K`        | İmlecin önündeki her şeyi keser.                               |
-| `Ctrl + Y`        | Kesilen ifadeyi yapıştırır.                                    |
-| `Ctrl + S`        | Komutun çıktı akışını duraklatır.                              |
-| `Ctrl + Q`        | Komutun çıktı akışını sürdürür.                                |
-| `Ctrl + C`        | Çalışan komutu durdurur.                                       |
-| `Ctrl + Z`        | Çalışan komutu arka planda askıya alır (suspend eder).         |
-| `fg` + Enter      | Arka planda askıya alınan komutu ön plana alır.                |
-| `Ctrl + L`        | Ekranı temizler (Terminalde yukarıya atar).                    |
-| `Ctrl + P`        | Geçmişteki komutları geriye doğru çağırır.                     |
-| `Ctrl + N`        | Geçmişteki komutları ileriye doğru çağırır.                    |
-| `Ctrl + R`        | Komut geçmişinde arama yapmayı başlatır.                       |
-| `Ctrl + G`        | Komut geçmişinde aramayı sonlandırır.                          |
-| `Tab`             | Komutları otomatik tamamlar. İki kez basıldığında olası komutları listeler. |
-| `Ctrl + D`        | Oturumu kapatır (`exit` komutu ile eşdeğer).                   |
 
 
 
